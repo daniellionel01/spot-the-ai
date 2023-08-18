@@ -1,47 +1,11 @@
-# Astro Starter Kit: Minimal
+# Spot the AI
 
-```
-npm create astro@latest -- --template minimal
-```
+this is a test to see if you can spot the difference between real and ai generated images.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+there are two modes:
+- identify: you will be presented two images. a real one and an ai generated one. you have to identify the ai generated one.
+- guess: you will be presented only one image, and you have to guess, wether it's real or ai generated.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+the images display a variety of different kind of images to show different strengths and weaknesses of ai generated images. the images will include portraits, people, structures, animals, art & drawings, nature, astronomy, physics
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+the ai generated images were generated with [midjourney](https://midjourney.com/). all real images are taken from [unsplash](https://unsplash.com/) and linked to their original source & creator to give credit.
