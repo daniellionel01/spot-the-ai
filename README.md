@@ -1,4 +1,4 @@
-# Spot the AI
+# spot the ai
 
 this is a test to see if you can spot the difference between real and ai generated images.
 
